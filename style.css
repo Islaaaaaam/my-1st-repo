@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'segoe ui light';
+}
+.nav-bar{
+   background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    width: 7%;
+    
+}
+.logo-container img{
+    width: 80%;
+}
+.nav-list{
+    
+    width: 60%;
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    
+    align-items:center;
+    justify-content: space-around;
+}
+.nav-list a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+div i {
+    color:crimson;
+    font-size: 14 px;
+}
+div  h3:hover{
+    color: red;
+
+}
+#services{
+    background-color: #fafafa;
+}
+.touch{
+    background-color: #fafafa;
+}
+.btn i{
+    color: #fff;
+}
+.touch h5:hover{
+    color: tomato;
+
+}
+.closing{
+    background-color: #222222;
+}
+.closing ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.closing li a{
+    color: #fff;
+    font-size: 18px;
+}
+.closing ul :hover{
+    color: tomato;
+}
+.span i :hover{
+    color: red;
+}
+span a {
+    text-decoration: none;
+    color: #fff;
+
+}
+span a:hover {
+    color:tomato;
+}
